@@ -7,7 +7,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int variavelTeste;
+            
+            variavelTeste= 123;
+            Console.WriteLine("O Valor a Variavel é {0}", variavelTeste);
+            Console.ReadLine();
+
         }
     }
 }
